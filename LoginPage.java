@@ -43,6 +43,15 @@ public class LoginPage {
 		enterPassword(passwd);
 		clickLogin();
 	}
+	
+	public boolean titleContains(String str ) {
+		boolean ret=false;
+		System.out.println("Title : "+driver.getTitle());
+		if(driver.getTitle().contains(str)) {
+			ret=true;
+		}
+		return ret;
+	}
 	public By getUnameInput() {
 		return unameInput;
 	}
