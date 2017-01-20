@@ -16,3 +16,13 @@ c. LoginPage_Inherit_Test.java --> is the Test Class which inherits BaseClass.ja
 4. Following programs explains how Java properties files can be used
 a. config.properties --> is the file being read
 b. UseJavaPropTest.java  --> is the program that reads the config.properties file and how to extract information from key=value pair when 1 key corresponds to 1 value and key=value1:value2:value3:value4 and when one key might have multiple values separated by a delimiter.
+
+5. Following programs explains how dataproviders can be used from a separate class
+a. DP_In_OtherClass_Test.java --> Test Class that uses dataproviders written in separate class i.e TestDataProviders.java
+b. TestDataProviders.java     --> DataProvider class
+
+6. Following programs explains how one dataprovider written in separate class can be used for multiple test cases
+a. DP_In_OtherClass_Test2.java --> Test Class that uses dataproviders written in separate class i.e TestDataProviders.java
+b. TestDataProviders2.java     --> DataProvider class that shows how same dataprovider can be used for multiple test cases
+
+
